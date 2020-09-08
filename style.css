@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24272e;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: #25272e;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.score-board {
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  width: 200px;
+  color: white;
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.badge {
+  background: #e2584d;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#user-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#computer-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.result {
+  font-size: 40px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.choice {
+  border: 4px solid white;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 12px;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: rgb(255, 165, 0);
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
